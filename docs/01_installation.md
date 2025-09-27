@@ -20,3 +20,11 @@ Der **Windows-Laptop (Schule)** soll später ohne Adminrechte auf den Server zug
 1. Mit dem Raspberry Pi verbinden (ausführen **auf dem Mac Mini**):
    ```bash
    ssh pi@raspiserver.local
+
+---
+
+## Installation
+
+1. Samba installieren (ausführen **auf dem Pi**):
+   ```bash
+   sudo apt install samba samba-common-bin -y
