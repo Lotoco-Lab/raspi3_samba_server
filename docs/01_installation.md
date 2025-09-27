@@ -35,3 +35,6 @@ Der **Windows-Laptop (Schule)** soll später ohne Adminrechte auf den Server zug
 
 ---
 
+3. Standard-Konfigurationsdatei sichern (ausführen **auf dem Pi**):
+   ```bash
+   sudo cp /etc/samba/smb.conf /etc/samba/smb.conf.bak
