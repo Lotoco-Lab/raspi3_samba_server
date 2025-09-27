@@ -28,3 +28,10 @@ Der **Windows-Laptop (Schule)** soll später ohne Adminrechte auf den Server zug
 1. Samba installieren (ausführen **auf dem Pi**):
    ```bash
    sudo apt install samba samba-common-bin -y
+
+2. Version prüfen (ausführen **auf dem Pi**):
+   ```bash
+   smbd --version
+
+---
+
