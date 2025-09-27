@@ -1,0 +1,14 @@
+# Schritt 3 – Samba konfigurieren & testen
+
+Dieses Dokument beschreibt die vollständige Konfiguration von Samba und den Verbindungstest mit einem Mac.
+
+---
+
+## 1. Samba-Benutzer anlegen
+
+Damit der Zugriff funktioniert, muss ein Samba-Benutzer mit Passwort angelegt werden.  
+Hier wird der Standard-User `pi` verwendet:
+
+```bash
+sudo smbpasswd -a pi
+
